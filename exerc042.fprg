@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="maria.schenfeldt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 01:52:41 "/>
+        <attribute name="created" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDMtMDQ7IjAxOjQ2OjMxICI7MzA3NA=="/>
+        <attribute name="edited" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDMtMDQ7IjAxOjUyOjQxICI7MTszMTgw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, h" type="Integer" array="False" size=""/>
+            <input variable="b"/>
+            <input variable="a"/>
+            <assign variable="a" expression="(b*a)/2"/>
+            <output expression="a" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

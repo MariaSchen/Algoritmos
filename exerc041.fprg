@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="maria.schenfeldt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 01:46:26 "/>
+        <attribute name="created" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDMtMDQ7IjExOjI3OjI0ICI7MzA3Ng=="/>
+        <attribute name="edited" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDMtMDQ7IjAxOjQ2OjI2ICI7MTszMTg2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="raio, a, p" type="Integer" array="False" size=""/>
+            <input variable="raio"/>
+            <assign variable="p" expression="2*&#960;*raio"/>
+            <assign variable="a" expression="&#960;*raio^2"/>
+            <output expression="p" newline="True"/>
+            <output expression="a" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,7 @@
+export ZONE=us-west1-c
+
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/VPC%20Networks%20%20Controlling%20Access/quicklabgsp213.sh
+
+sudo chmod +x quicklabgsp213.sh
+
+./quicklabgsp213.sh

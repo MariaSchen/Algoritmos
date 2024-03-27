@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="maria.schenfeldt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-05 04:10:56 "/>
+        <attribute name="created" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDItMDU7IjAyOjAzOjU4ICI7MzA3Nw=="/>
+        <attribute name="edited" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDItMDU7IjA0OjEwOjU2ICI7MTszMTgz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="nota1, nota2, nota3, m&#233;dia, faltas" type="Real" array="False" size=""/>
+            <input variable="Nome"/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="faltas"/>
+            <assign variable="m&#233;dia" expression="m&#233;dia(nota1, nota2, nota3)"/>
+            <if expression="m&#233;dia&gt;=7">
+                <then>
+                    <if expression="faltas&lt;=25%100">
+                        <then>
+                            <output expression="&quot;Aprovado&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Reprovado&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;Reprovado&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;M&#233;dia ponderada: &quot; &amp;m&#233;dia" newline="True"/>
+        </body>
+    </function>
+    <function name="m&#233;dia" type="Real" variable="m&#233;dia">
+        <parameters>
+            <parameter name="nota1" type="Real" array="False"/>
+            <parameter name="nota2" type="Real" array="False"/>
+            <parameter name="nota3" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="m&#233;dia" type="Real" array="False" size=""/>
+            <assign variable="m&#233;dia" expression="((nota1*2)+(nota2*3)+(nota3*5))/10"/>
+        </body>
+    </function>
+    <function name="percentfaltas" type="Real" variable="percentfaltas">
+        <parameters>
+            <parameter name="aulas" type="Integer" array="False"/>
+            <parameter name="faltas" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="percentfaltas" type="Real" array="False" size=""/>
+            <assign variable="percentfaltas" expression="faltas/aulas"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="maria.schenfeldt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-05 05:11:31 "/>
+        <attribute name="created" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDItMDU7IjA0OjQwOjEzICI7MzA3MQ=="/>
+        <attribute name="edited" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDItMDU7IjA0OjQwOjE1ICI7MTttYXJpYS5zY2hlbmZlbGR0O05UMTY7MjAyNC0wMi0wNTsiMDQ6MjM6MzAgIjs2MzEx"/>
+        <attribute name="edited" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDItMDU7IjA1OjExOjMxICI7MTszMTc4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="m&#234;s, dia, i, ii, iii, iv, ano, ano1" type="Integer" array="False" size=""/>
+            <input variable="dia"/>
+            <input variable="m&#234;s"/>
+            <input variable="ano"/>
+            <assign variable="ano1" expression="ano % 100"/>
+        </body>
+    </function>
+    <function name="i" type="Integer" variable="i">
+        <parameters/>
+        <body/>
+    </function>
+</flowgorithm>

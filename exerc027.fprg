@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="maria.schenfeldt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-19 05:02:53 "/>
+        <attribute name="created" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDItMTk7IjAxOjM0OjE5ICI7MzA4Mg=="/>
+        <attribute name="edited" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDItMTk7IjA1OjAyOjUzICI7MzszMTg5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="arq, reg" type="String" array="False" size=""/>
+            <assign variable="arq" expression="&quot;teste2.txt&quot;"/>
+            <open expression="arq" mode="write"/>
+            <assign variable="reg" expression="&quot;id,nome,salario,diastrab,inss,bcir,ir,vt,vr,salliq&quot;"/>
+            <write expression="reg"/>
+            <for variable="i" start="0" end="4" direction="inc" step="1">
+                <input variable="id"/>
+                <input variable="salario"/>
+                <input variable="nome"/>
+                <input variable="diastrab"/>
+                <assign variable="" expression=""/>
+                <assign variable="" expression=""/>
+                <assign variable="" expression=""/>
+                <assign variable="" expression=""/>
+                <assign variable="reg" expression="(i+1)&amp;&quot;,&quot;&amp;nome[i]&amp;&quot;,&quot;&amp;salario[i]&amp;&quot;,&quot;&amp;diastrab[i]&amp;&quot;,&quot;&amp;inss[i]&amp;&quot;,&quot;&amp;bcir[i]&amp;&quot;,&quot;&amp;ir[i]&amp;&quot;,&quot;&amp;vt[i]&amp;&quot;,&quot;&amp;vr[i]&amp;&quot;,&quot;&amp;asalliq[i]"/>
+                <write expression="reg"/>
+            </for>
+            <close mode="write"/>
+            <output expression="" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

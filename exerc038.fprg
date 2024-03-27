@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="maria.schenfeldt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 10:29:17 "/>
+        <attribute name="created" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDMtMDQ7IjEwOjAwOjM4ICI7MzA3MQ=="/>
+        <attribute name="edited" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDMtMDQ7IjEwOjI5OjE3ICI7MTszMTg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cemkw, sm, n, f, kw" type="Real" array="False" size=""/>
+            <output expression="&quot;Insira o sal&#225;rio m&#237;nimo.&quot;" newline="True"/>
+            <input variable="sm"/>
+            <output expression="&quot;Insira a quantidade de Kw/h consumido.&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="cemkw" expression="sm/7"/>
+            <assign variable="kw" expression="cemkw/100"/>
+            <assign variable="f" expression="kw*n"/>
+            <output expression="cemkw" newline="True"/>
+            <output expression="kw" newline="True"/>
+            <output expression="f" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

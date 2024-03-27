@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="maria.schenfeldt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 09:17:12 "/>
+        <attribute name="created" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDMtMDQ7IjA4OjU2OjM2ICI7MzA4Nw=="/>
+        <attribute name="edited" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDMtMDQ7IjA5OjE3OjEyICI7MTszMTg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num, ant, suc" type="Integer" array="False" size=""/>
+            <input variable="num"/>
+            <assign variable="ant" expression="num-1"/>
+            <assign variable="suc" expression="num+1"/>
+            <output expression="suc" newline="True"/>
+            <output expression="ant" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

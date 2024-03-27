@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="maria.schenfeldt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-19 02:39:10 "/>
+        <attribute name="created" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDItMTk7IjAxOjM0OjE5ICI7MzA4Mg=="/>
+        <attribute name="edited" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDItMTk7IjAyOjM5OjEwICI7MTszMTg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="arq" type="String" array="False" size=""/>
+            <assign variable="arq" expression="&quot;teste.txt&quot;"/>
+            <open expression="arq" mode="read"/>
+        </body>
+    </function>
+</flowgorithm>

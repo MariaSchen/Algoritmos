@@ -1,0 +1,10 @@
+export INSTANCE= nucleus-jumphost-474
+export PORT_NO= 8083
+export FIREWALL= grant-tcp-rule-391
+export REGION= us-west4
+export ZONE= us-west4-a
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Create%20and%20Manage%20Cloud%20Resources%20Challenge%20Lab/gsp313.sh
+
+sudo chmod +x gsp313.sh
+
+./gsp313.sh

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="maria.schenfeldt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-29 02:52:16 "/>
+        <attribute name="created" value="bWFyaWEuc2NoZW5mZWxkdDtERVNLVE9QLUhQRUU0ODM7MjAyNC0wMS0yNDsiMDQ6NDE6MDkgIjszODQ0"/>
+        <attribute name="edited" value="bWFyaWEuc2NoZW5mZWxkdDtERVNLVE9QLUhQRUU0ODM7MjAyNC0wMS0yOTsiMDI6NTI6MTYgIjs3OzM5NjE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <assign variable="c" expression="1"/>
+            <do expression="c&lt;=100">
+                <if expression="c%7==0">
+                    <then>
+                        <output expression="c" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="c" expression="c + 1"/>
+            </do>
+            <assign variable="b" expression="1"/>
+            <while expression="b&lt;=100">
+                <if expression="b % 13 == 0">
+                    <then>
+                        <output expression="b" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="b" expression="b+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

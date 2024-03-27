@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="maria.schenfeldt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 09:50:58 "/>
+        <attribute name="created" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDMtMDQ7IjA5OjE3OjE2ICI7MzA4Mw=="/>
+        <attribute name="edited" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDMtMDQ7IjA5OjUwOjU4ICI7MTszMTk0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s, c, tg" type="Real" array="False" size=""/>
+            <declare name="n" type="Real" array="False" size=""/>
+            <input variable="n"/>
+            <assign variable="s" expression="Sin(n)"/>
+            <assign variable="c" expression="Cos(n)"/>
+            <assign variable="tg" expression="Tan(n)"/>
+            <output expression="s" newline="True"/>
+            <output expression="c" newline="True"/>
+            <output expression="tg" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="maria.schenfeldt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-31 02:43:00 "/>
+        <attribute name="created" value="bWFyaWEuc2NoZW5mZWxkdDtERVNLVE9QLUhQRUU0ODM7MjAyNC0wMS0zMTsiMDI6MjA6MzEgIjszODMy"/>
+        <attribute name="edited" value="bWFyaWEuc2NoZW5mZWxkdDtERVNLVE9QLUhQRUU0ODM7MjAyNC0wMS0zMTsiMDI6NDM6MDAgIjsxOzM5NDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <for variable="a" start="1" end="9" direction="inc" step="1">
+                <output expression="&quot;tabuada do 2 &#233; igual&quot;" newline="True"/>
+                <for variable="b" start="1" end="10" direction="inc" step="1">
+                    <assign variable="c" expression="a*b"/>
+                    <output expression="a &amp; &quot; X &quot; &amp; b &amp; &quot; = &quot; &amp; c" newline="True"/>
+                </for>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

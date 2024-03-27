@@ -1,0 +1,36 @@
+1- D, pois estava anotado em meu caderno, além de que o $ significa que é um usuário padrão e # que é um usuário administrador.
+2- B, du, pois o comando foi cedido pelo professor em um arquivo.
+3- C, comando foi encontrado através de pesquisas.
+
+4- 
+•Pwd - Exibe o caminho do diretório atual. 
+•Cp - Copiar arquivos e diretótios.
+•Mv - Usado para mover ou renomear arquivos.
+•Rm- Usado para excluir arquivos em um diretório.
+Encontrados através de pesquisa.
+
+5- 
+patolino@nt16:~$ cd ~
+patolino@nt16:~$ mkdir sor
+patolino@nt16:~$ cd sor
+patolino@nt16:~/sor$ mkdir aulas
+patolino@nt16:~/sor$ mkdir prova
+patolino@nt16:~/sor$ cd aulas
+patolino@nt16:~/sor/aulas$ touch atividades.txt
+patolino@nt16:~/sor/aulas$ cd
+patolino@nt16:~$ cd sor/prova
+patolino@nt16:~/sor/prova$ touch respostas.txt
+
+6- O comando utilizado para matar um processo é o "kill pid", de acordo com a questão ficaria "kill 2127".
+7- O comando "fg" traz o trabalho mais recente para o primeiro plano, comando foi cedido pelo professor em um arquivo.
+8- Comando "adduser", foi aprensentado e testado aula para comprovação da vericidade do comando.
+9- Comando "passwd", utilizado para alterar a senha, foi aprensentado e testado aula para comprovação da vericidade do comando.
+10- Comando "usermod", encontrado após a realização de uma ativade em sala, aonde o comando foi testado.
+
+11- 
+a) Gerência.
+b) A gerência pode ler e escrever e os demais podem apenas ler.
+c) Não, ele possuí permissão apenas para ler o arquivo.
+
+12- Comando "chown user1 file1", altera o proprietário de um arquivo.
+13- Comando "chmod 640 relatorio.txt"

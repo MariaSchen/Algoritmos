@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="maria.schenfeldt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-06 04:45:05 "/>
+        <attribute name="created" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDMtMDY7IjA0OjE3OjA3ICI7MzA4MA=="/>
+        <attribute name="edited" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDMtMDY7IjA0OjQ1OjA1ICI7MTszMTg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num, i" type="Integer" array="False" size=""/>
+            <input variable="num"/>
+            <assign variable="i" expression="1"/>
+            <while expression="i&lt;=num">
+                <if expression="num%i==0">
+                    <then>
+                        <output expression="i" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="i" expression="i+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="maria.schenfeldt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-19 04:20:09 "/>
+        <attribute name="created" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDItMTk7IjAxOjM0OjE5ICI7MzA4Mg=="/>
+        <attribute name="edited" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDItMTk7IjA0OjIwOjA5ICI7MzszMTg5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="arq, reg" type="String" array="False" size=""/>
+            <assign variable="arq" expression="&quot;teste2.txt&quot;"/>
+            <open expression="arq" mode="write"/>
+            <assign variable="reg" expression="&quot;id,nome,salario,diastrab,inss,bcir,ir,vt,vr,salliq1&quot;"/>
+            <write expression="reg"/>
+            <for variable="n" start="1" end="5" direction="inc" step="1"/>
+            <close mode="write"/>
+        </body>
+    </function>
+</flowgorithm>

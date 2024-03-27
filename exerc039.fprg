@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="maria.schenfeldt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 11:16:52 "/>
+        <attribute name="created" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDMtMDQ7IjEwOjUxOjAwICI7MzA2Ng=="/>
+        <attribute name="edited" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDMtMDQ7IjExOjE2OjUyICI7MTszMTgz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="base, altura, p, area, diag" type="Integer" array="False" size=""/>
+            <input variable="altura"/>
+            <input variable="base"/>
+            <assign variable="area" expression="base*altura"/>
+            <assign variable="p" expression="(2*base)+(2*altura)"/>
+            <assign variable="diag" expression="(base^2)+(altura^2)"/>
+            <output expression="&quot;Per&#237;metro: &quot; &amp;p&amp; &quot;     &#193;rea: &quot; &amp;area&amp; &quot;      Diagonal: &quot; &amp;sqrt(diag)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

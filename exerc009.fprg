@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="maria.schenfeldt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-24 05:05:13 "/>
+        <attribute name="created" value="bWFyaWEuc2NoZW5mZWxkdDtERVNLVE9QLUhQRUU0ODM7MjAyNC0wMS0yNDsiMDQ6NDE6MDkgIjszODQ0"/>
+        <attribute name="edited" value="bWFyaWEuc2NoZW5mZWxkdDtERVNLVE9QLUhQRUU0ODM7MjAyNC0wMS0yNDsiMDU6MDU6MTMgIjs0OzM5NTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="1"/>
+            <declare name="resto" type="Integer" array="False" size=""/>
+            <assign variable="resto" expression="a % 2"/>
+            <for variable="a" start="1" end="10" direction="inc" step="1&#13;&#10;">
+                <assign variable="resto" expression="a % 2"/>
+                <if expression="resto=0">
+                    <then>
+                        <output expression="a" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

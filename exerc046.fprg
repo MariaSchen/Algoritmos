@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="maria.schenfeldt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 03:35:46 "/>
+        <attribute name="created" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDMtMDQ7IjAyOjQ1OjQ1ICI7MzA3OQ=="/>
+        <attribute name="edited" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDMtMDQ7IjAzOjM1OjQ2ICI7MTszMTg4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="dist, kml, custo, valorc" type="Integer" array="False" size=""/>
+            <input variable="dist"/>
+            <input variable="kml"/>
+            <input variable="valorc"/>
+            <assign variable="custo" expression="(dist/kml)*valorc"/>
+            <output expression="custo" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

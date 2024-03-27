@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="maria.schenfeldt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 02:01:57 "/>
+        <attribute name="created" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDMtMDQ7IjAxOjUyOjUyICI7MzA3NA=="/>
+        <attribute name="edited" value="bWFyaWEuc2NoZW5mZWxkdDtOVDE2OzIwMjQtMDMtMDQ7IjAyOjAxOjU3ICI7MTszMTgy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="co, ca, hip" type="Integer" array="False" size=""/>
+            <input variable="co"/>
+            <input variable="ca"/>
+            <assign variable="hip" expression="(co^2)+(ca^2)"/>
+            <output expression="sqrt(hip)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

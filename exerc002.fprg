@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="maria.schenfeldt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-24 03:00:32 "/>
+        <attribute name="created" value="bWFyaWEuc2NoZW5mZWxkdDtERVNLVE9QLUhQRUU0ODM7MjAyNC0wMS0yNDsiMDI6MzM6MDUgIjszODM5"/>
+        <attribute name="edited" value="bWFyaWEuc2NoZW5mZWxkdDtERVNLVE9QLUhQRUU0ODM7MjAyNC0wMS0yNDsiMDM6MDA6MzIgIjsyOzM5NDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, soma" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <assign variable="soma" expression="a+b+c"/>
+            <output expression="soma" newline="True"/>
+            <declare name="m&#233;dia" type="Integer" array="False" size=""/>
+            <assign variable="m&#233;dia" expression="soma/3"/>
+            <output expression="m&#233;dia" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
